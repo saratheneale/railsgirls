@@ -11,3 +11,18 @@
  *= require_self
  *= require_tree .
  */
+ body { padding-top: 100px; }
+footer { margin-top: 100px; }
+table, td, th { vertical-align: middle !important; border: none !important; }
+th { border-bottom: 1px solid #DDD !important; }
+
+
+.navbar-fixed-top .container{
+	background-color:purple;
+}
+
+.navbar-fixed-top{
+	background-image:none;
+	background-color:teal;
+}
+
