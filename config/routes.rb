@@ -1,8 +1,11 @@
 Railsgirls::Application.routes.draw do
+  devise_for :users
+
   get "pages/info"
 
   root :to => redirect('/ideas')
   resources :ideas
+  get '/users', to: 'ideas#index'
 
 
   # The priority is based upon order of creation:
